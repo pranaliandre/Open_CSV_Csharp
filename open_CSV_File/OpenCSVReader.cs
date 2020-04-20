@@ -22,7 +22,7 @@ namespace open_CSV_File
         {
             try
             {
-                //read cev file
+                //read csv file
                 using (CsvReader csv = new CsvReader(new StreamReader("C:/Users/intel/source/repos/open_CSV_File/open_CSV_File/users.csv"), true))
                 {
 

@@ -17,7 +17,7 @@ namespace open_CSV_File
             var data = new[]
             { 
                new CsvPojo {ID=5,Name ="kimaya",Email="kimaya23@gmail.com", PhoneNo = +91-9845678937,Address="Pune",Country="india"},
-               new CsvPojo {ID =6,Name = "Aryan",Email="aryan15@gmail.com",  PhoneNo = +91-9705263245,Address ="Rajgurunagare",Country="india"}
+               new CsvPojo {ID =6,Name = "Aryan",Email="aryan15@gmail.com",  PhoneNo = +91-9705263245,Address ="Rajgurunagar",Country="india"}
             };
             try
             {

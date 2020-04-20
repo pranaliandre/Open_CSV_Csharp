@@ -49,7 +49,7 @@ namespace open_CSV_File
         {
             try
             {
-                using (CsvReader csv = new CsvReader(new StreamReader("C:/Users/intel/source/repos/openCSV/openCSV/users.csv"), true))
+                using (CsvReader csv = new CsvReader(new StreamReader("C:/Users/intel/source/repos/open_CSV_File/open_CSV_File/users.csv"), true))
                 {
                     // the number of fields 
                     int fields_count = csv.FieldCount;
